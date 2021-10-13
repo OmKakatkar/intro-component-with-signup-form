@@ -11,6 +11,7 @@
   --blue: hsl(248, 32%, 49%);
   --dark-blue: hsl(249, 10%, 26%);
   --grayish-blue: hsl(246, 25%, 77%);
+  --white: hsl(255, 100%, 100%);
   --global-font: "Poppins", sans-serif;
 }
 
@@ -27,4 +28,98 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  background: url(../images/bg-intro-mobile.png);
+  background-color: var(--red);
+  color: var(--white);
+  padding: 5em 0;
+}
+
+.component-container,
+footer {
+  max-width: 1440px;
+  width: 85vw;
+}
+
+.heading {
+  line-height: 1.15;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  padding: 1.5em 0 3em;
+}
+
+/* .form-container {} */
+
+.offer {
+  background-color: var(--blue);
+  padding: 1em 4em;
+  text-align: center;
+  border-radius: 0.5em;
+  box-shadow: 0px 0.5em 0px hsla(249, 10%, 26%, 0.3);
+  margin-bottom: 2em;
+}
+
+.form-inner-wrapper {
+  background-color: var(--white);
+  padding: 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 0px 0.5em 0px hsla(249, 10%, 26%, 0.3);
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-family: var(--global-font);
+  font-weight: 600;
+  border: 1px solid var(--grayish-blue);
+}
+.signup-form {
+  margin-bottom: 1rem;
+}
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  background-color: var(--green);
+  outline: none;
+  border: 2px solid var(--green);
+  border-radius: 0.5em;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1em;
+  font-style: var(--global-font);
+  font-weight: 600;
+  box-shadow: 0px 0.25em 0px hsl(154, 56%, 42%);
+  /* filter: drop-shadow(0px 0.375em 0px hsl(154, 56%, 42%)); */
+}
+
+.terms-and-conditions {
+  display: block;
+  color: var(--grayish-blue);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.625em;
+}
+
+.terms-and-conditions span {
+  color: var(--red);
+}
+
+/* Footer */
+.footer {
+  margin-top: 5em;
+}
+
+.attribution,
+.author {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
