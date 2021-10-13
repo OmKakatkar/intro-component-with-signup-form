@@ -45,7 +45,7 @@
 ## Useful resources
 
 ### Learn
-
+- [Form Validation](https://youtu.be/rsd4FNGTRBw)
 ### Fonts
 
 ### Colors
