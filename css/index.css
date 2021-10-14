@@ -38,6 +38,8 @@ body {
   background-color: var(--red);
   color: var(--white);
   padding: 5em 0;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .component-container,
@@ -101,8 +103,19 @@ footer {
   border-radius: 0.5em;
   color: var(--white);
   text-transform: uppercase;
-  box-shadow: 0px 0.25em 0px hsl(154, 56%, 42%);
-  /* filter: drop-shadow(0px 0.375em 0px hsl(154, 56%, 42%)); */
+  box-shadow: 0px 0.125em 0px hsl(154, 56%, 42%);
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+  cursor: pointer;
+  background-color: hsl(154, 78%, 70%);
+  border-color: hsl(154, 96%, 71%);
+}
+
+.btn-submit:active {
+  transform: translateY(0.125em);
+  box-shadow: none;
 }
 
 .terms-and-conditions {
