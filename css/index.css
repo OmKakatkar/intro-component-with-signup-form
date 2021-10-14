@@ -120,7 +120,7 @@ footer {
 
 /* Footer */
 .footer {
-  margin-top: 5em;
+  margin-top: 3rem;
 }
 
 .attribution,
@@ -153,9 +153,15 @@ footer {
     margin: auto;
   }
   .heading {
-    font-size: 3em;
+    font-size: 2em;
   }
   .terms-and-conditions {
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .heading {
+    font-size: 3em;
   }
 }
