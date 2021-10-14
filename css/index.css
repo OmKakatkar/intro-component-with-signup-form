@@ -7,6 +7,7 @@
 /* Custom Properties */
 :root {
   --red: hsl(0, 100%, 74%);
+  --error: hsl(0, 54.4%, 69%);
   --green: hsl(154, 59%, 51%);
   --blue: hsl(248, 32%, 49%);
   --dark-blue: hsl(249, 10%, 26%);
@@ -41,6 +42,7 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+
 
 .component-container,
 footer {
@@ -80,16 +82,48 @@ footer {
   display: block;
   width: 100%;
   padding: 0.8em;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-size: 1em;
   font-family: var(--global-font);
   font-weight: 600;
-  border: 1px solid var(--grayish-blue);
+  border: 2px solid var(--grayish-blue);
   border-radius: 0.5em;
+  caret-color: var(--blue);
 }
+
+.input:focus {
+  outline: none;
+  border: 2px solid var(--blue);
+}
+
 .signup-form {
   margin-bottom: 1rem;
 }
+
+/* Error */
+.error-email,
+.error-text {
+  color: var(--error);
+}
+
+.error {
+  border: 2px solid var(--error);
+  margin-bottom: 0;
+  background: url(../images/icon-error.svg) no-repeat scroll 92% 50%;
+}
+
+.error-img {
+  position: absolute;
+  top: 0;
+}
+
+.error-text {
+  display: none;
+  text-align: right;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+
 .btn-submit {
   display: block;
   width: 100%;
@@ -154,6 +188,9 @@ footer {
 
 /* Media Queries */
 @media screen and (min-width: 730px) {
+  body {
+    background: url(../images/bg-intro-desktop.png) var(--red);
+  }
   .component-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
