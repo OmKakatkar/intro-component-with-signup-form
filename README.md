@@ -5,7 +5,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Problem Statement](#problem-statement)
   - [Desktop Preview](#desktop-preview)
   - [Mobile Preview](#mobile-preview)
   - [Links](#links)
@@ -21,11 +20,11 @@
 
 ## Overview
 
-### Problem Statement
-
 ### Desktop Preview
 
 ![](./screenshots/desktop.png)
+![](./screenshots/desktop-empty.png)
+![](./screenshots/desktop-email.png)
 
 ### Mobile Preview
 
@@ -39,9 +38,18 @@
 ## My process
 
 ### Built with
-
+- HTML5
+- Vanilla JS
+- CSS Grid
 ### How I went for the implementation?
+Initially I struggled a bit with the overall implementation and the form validation part. Then I started breaking the problem into parts which were easy to work with.
+- First I made a rough sketch for parts and sections on a piece of paper.
+- Then I built a basic HTML structure with the design with a Mobile First approach
+- Extended the styles for Tablet and Desktop
+- Added styling for error handler
+- Finally, did the form validations as per the requirements
 
+It took some time, but learnt a lot. 
 ## Useful resources
 
 ### Learn
