@@ -43,6 +43,9 @@ body {
   overflow-y: scroll;
 }
 
+main {
+  min-height: 100vh;
+}
 
 .component-container,
 footer {
