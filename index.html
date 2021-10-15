@@ -28,17 +28,25 @@
           <b> Try it free 7 days </b> then $20/mo. thereafter
         </div>
         <div class="form-inner-wrapper">
-          <form action="#" class="signup-form">
-            <input type="text" placeholder="First Name" class="input" />
-            <small class="error-text"></small>
-            <input type="text" placeholder="Last Name" class="input" />
-            <small class="error-text"></small>
-            <input type="email" placeholder="Email Address" class="input" />
-            <small class="error-text"></small>
-            <input type="password" placeholder="Password" class="input" />
-            <small class="error-text"></small>
+          <form class="signup-form" id="form">
+            <div class="input-container">
+              <input type="text" placeholder="First Name" class="input" id="first-name"/>
+              <small class="error-text"></small>
+            </div>
+            <div class="input-container">
+              <input type="text" placeholder="Last Name" class="input" id="last-name"/>
+              <small class="error-text"></small>
+            </div>
+            <div class="input-container">
+              <input type="email" placeholder="Email Address" class="input" id="email"/>
+              <small class="error-text"></small>
+            </div>
+            <div class="input-container">
+              <input type="password" placeholder="Password" class="input" id="password"/>
+              <small class="error-text"></small>
+            </div>
 
-            <button type="submit" class="btn-submit">
+            <button type="submit" class="btn-submit" id="btn-submit">
               Claim your free trial
             </button>
           </form>

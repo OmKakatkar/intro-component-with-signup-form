@@ -47,6 +47,9 @@
 ### Learn
 
 - [Form Validation](https://youtu.be/rsd4FNGTRBw)
+- [Select Sibling](https://www.javascripttutorial.net/javascript-dom/javascript-siblings/)
+- [Add Class](https://www.w3schools.com/howto/howto_js_add_class.asp)
+- [Remove Class](https://www.w3schools.com/howto/howto_js_remove_class.asp)
 
 ### Fonts
 
